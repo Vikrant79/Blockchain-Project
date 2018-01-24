@@ -9,5 +9,4 @@ contract inbox {
     function setMessage(string newMessage) public {
         message = newMessage;
     }
-
 }
