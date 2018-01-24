@@ -17,7 +17,6 @@ beforeEach(async () => {
   inbox = await new web3.eth.Contract(JSON.parse(interface))
   .deploy({ data: bytecode, arguments: ['Hi there!']})
   .send({from: account[0], gas:'1000000'});
-
 });
 describe('Inbox', () => {
   it('deploy a contract', () => {
