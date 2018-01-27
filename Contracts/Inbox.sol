@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract inbox {
+contract Inbox {
     string public message;
 
     function inbox(string initialMessage) public {
